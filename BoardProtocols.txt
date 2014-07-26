@@ -1,0 +1,356 @@
+/*******************注册协议*******************/
+[register-request]
+{
+    "protocolType": "request", 
+    "protocol": "1.1.2", 
+    "command": "register", 
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+}
+
+[register-reply]
+{
+    "protocolType": "reply", 
+    "command": "register", 
+    "protocol": "1.1.2", 
+    "result": {
+        "tips": null, 
+        "code": 0
+    }, 
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+}
+
+
+/*******************登录协议*******************/
+[login-request]
+{
+    "protocolType": "request", 
+    "protocol": "1.1.2", 
+    "command": "login", 
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+}
+
+[login-reply]
+{
+    "protocolType": "reply", 
+    "protocol": "1.1.2", 
+    "command": "login", 
+    "result": {
+        "tips": null, 
+        "code": 0
+    }, 
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+}
+
+
+
+/*******************登出协议*******************/
+[logout-request]
+{
+    "protocolType": "request", 
+    "protocol": "1.1.2", 
+    "command": "logout", 
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+}
+
+[logout-reply]
+{
+    "protocolType": "reply", 
+    "command": "logout", 
+    "protocol": "1.1.2", 
+    "result": {
+        "tips": null, 
+        "code": 0
+    }, 
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+}
+
+
+
+
+/*******************请求房间列表协议*******************/
+[roomList-request]
+{
+	"protocol": "1.1.2",
+    "protocolType": "request",	
+    "command": "roomList", 
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+}
+
+[roomList-reply]
+{
+    "protocol": "1.1.2",
+    "protocolType": "reply",	
+    "command": "roomList",  
+    "result": {
+    	"code": "0",
+    	"tips": "xxxxx" 
+    },
+    "roomInfo":    
+	[
+		{
+			"roomTitle":"123"，
+			"roomPassword":"123"，
+			"roomID":"1"，
+			"maximum":"15"，	
+			"present":"2"，	
+		}
+		……
+		{
+			"roomTitle":"2344"，
+			"roomPassword":"SSS"，
+			"roomID":"12"，
+			"maximum":"6"，	
+			"present":"4"，	
+		}
+	]
+}
+
+
+
+
+/*******************进入房间协议*******************/
+[roomJoin-request]
+{
+	"protocol": "1.1.2",
+    "protocolType": "request",
+    "command": "roomJoin",
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+    "roomInfo":{
+       	"roomTitle": "Join Us",
+       	"roomPassword": "123",
+       	"roomID": "12",
+       	"maximum": "16",	
+       	"present": "13",		
+    }
+}
+
+[roomJoin-reply]
+{
+    "protocol": "1.1.2",
+    "protocolType": "reply",
+    "command": "roomJoin",  
+    "result":{
+      	"code": "0",
+       	"tips": "xxxxx" 
+   	},
+    "roomInfo":{
+       	"roomTitle": "Join Us",
+       	"roomPassword": "123",
+       	"roomID": "12",
+       	"maximum": "16",	
+       	"present": "13",		
+    }
+}
+
+
+/*******************退出房间协议*******************/
+[roomExit-request]
+{
+	"protocol": "1.1.2",
+    "protocolType": "request",
+    "command": "roomExit",
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+    "roomInfo":{
+       	"roomTitle": "Join Us",
+       	"roomPassword": "123",
+       	"roomID": "12",
+       	"maximum": "16",	
+       	"present": "13",		
+    }
+}
+
+[roomExit-reply]
+{
+    "protocol": "1.1.2",
+    "protocolType": "reply",
+    "command": "roomExit",  
+    "result":{
+      	"code": "0",
+       	"tips": "xxxxx" 
+   	}
+}
+
+/*******************创建房间协议*******************/
+[roomCreate-request]
+{
+	"protocol": "1.1.2",
+    "protocolType": "request",
+    "command": "roomCreate",
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+    "roomInfo":{
+       	"roomTitle": "Join Us",
+       	"roomPassword": "123",
+       	"roomID": "12",
+       	"maximum": "16",	
+       	"present": "13",		
+    }
+}
+
+[roomCreate-reply]
+{
+    "protocol": "1.1.2",
+    "protocolType": "reply",
+    "command": "roomList",  
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+    "roomInfo":{
+       	"roomTitle": "Join Us",
+       	"roomPassword": "123",
+       	"roomID": "12",
+       	"maximum": "16",	
+       	"present": "13",		
+    }
+}
+
+
+
+
+/*******************动作协议*******************/
+[drawAction-request]
+{
+	"protocol": "1.1.2",
+    "protocolType": "request",	//请求命令
+    "command": "drawAction",  
+    "userInfo": {
+        "username": null, 
+        "status": 0, 
+        "uid": null, 
+        "host": null, 
+        "password": null, 
+        "nickname": null, 
+        "port": null
+    }
+    "Action": 
+	{
+       	"shape": "",
+       	"thickness": "",
+       	"color": "",
+		"text": ""
+		"coordinates":
+		[
+			{
+				"x":0,
+				"y":0,
+			}
+			{
+				"x":0,
+				"y":0,
+			}
+			...
+			
+			{
+				"x":0,
+				"y":0,
+			}
+		]
+    }
+}
+
+[drawAction-reply](实际为转发)
+{
+    "protocol": "1.1.2",
+    "protocolType": "reply",	//回复命令
+    "command": "drawAction",  
+    "result": {
+    	"code": "0",     //0为成功，-1为失败
+       	"tips": "xxxxx"  //成功或失败信息
+    }
+    "Action": {
+       	"shape": "",
+       	"startPointX": "",
+       	"startPointY": "",
+       	"endPointX": "",
+       	"endPointY": "",
+       	"thickness": "",
+       	"color": "",
+		"text": ""
+    }
+}
+

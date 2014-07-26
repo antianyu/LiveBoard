@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KYNUS</Machine>
+    <WindowsUser>Xu Wuyang</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\LiveBoard.exe">
+      <PackagePath>LiveBoard.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\LiveBoard.pdb">
+      <PackagePath>LiveBoard.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\AboutPage_Background.jpg">
+      <PackagePath>Assets\AboutPage_Background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\LoginPage.jpg">
+      <PackagePath>Assets\LoginPage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\Eraser.png">
+      <PackagePath>Assets\Eraser.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\Line.png">
+      <PackagePath>Assets\Line.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\Point.png">
+      <PackagePath>Assets\Point.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\Rectangle.png">
+      <PackagePath>Assets\Rectangle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\Assets\TextBox.png">
+      <PackagePath>Assets\TextBox.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\AboutPage.xaml">
+      <PackagePath>AboutPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\BoardPage.xaml">
+      <PackagePath>BoardPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\RoomListPage.xaml">
+      <PackagePath>RoomListPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

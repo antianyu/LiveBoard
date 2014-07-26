@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="LiveBoard.BoardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LiveBoard"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Height="43" Margin="10,10,0,0" TextWrapping="Wrap" Text="房间ID:" VerticalAlignment="Top" Width="109" FontSize="32"/>
+        <TextBlock x:Name="RoomIDTextBlock" HorizontalAlignment="Left" Height="43" Margin="124,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" FontSize="32"/>
+        <TextBlock HorizontalAlignment="Left" Height="43" Margin="293,10,0,0" TextWrapping="Wrap" Text="房间名称:" VerticalAlignment="Top" Width="138" FontSize="32"/>
+        <TextBlock x:Name="RoomTiTleTextBlock" HorizontalAlignment="Left" Height="43" Margin="436,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="291" FontSize="32"/>
+        <TextBlock HorizontalAlignment="Left" Height="43" Margin="792,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" FontSize="32" Text="(        /        )"/>
+        <TextBlock x:Name="PresentNumberTextBlock" HorizontalAlignment="Left" Height="43" Margin="820,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38" FontSize="32"/>
+        <TextBlock x:Name="MaximumNumberTextBlock" HorizontalAlignment="Left" Height="43" Margin="903,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38" FontSize="32"/>
+        <Button x:Name="ExitButton" Content="Exit" HorizontalAlignment="Left" Height="43" Margin="1263,4,0,0" VerticalAlignment="Top" Width="93" Click="ExitButton_Click"/>
+        <Canvas x:Name="myCanvas" HorizontalAlignment="Left" Height="630" Margin="0,128,0,0" VerticalAlignment="Top" Width="1366" Background="White" PointerPressed="myCanvas_PointerPressed" PointerMoved="myCanvas_PointerMoved" PointerReleased="myCanvas_PointerReleased"/>
+        <Button x:Name="ClearButton" Content="Ｃlear" HorizontalAlignment="Left" Height="43" Margin="1263,71,0,0" VerticalAlignment="Top" Width="93" Click="ClearButton_Click"/>
+        <!--<RepeatButton x:Name="UndoButton" Content="Undo" HorizontalAlignment="Left" Height="64" Margin="267,130,0,0" VerticalAlignment="Top" Width="132" Click="UndoButton_Click" Delay="100"/>
+        <RepeatButton x:Name="RedoButton" Content="Redo" HorizontalAlignment="Left" Height="64" Margin="450,130,0,0" VerticalAlignment="Top" Width="132" Click="RedoButton_Click" Delay="100" RenderTransformOrigin="0.5,0.516"/>-->
+        <TextBlock HorizontalAlignment="Left" Text="点大小(1~20)" Height="37" Margin="581,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" FontSize="14.667"/>
+        <TextBlock HorizontalAlignment="Left" Text="线粗细(1~20)" Height="37" Margin="944,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" FontSize="14.667"/>
+        <RepeatButton x:Name="PointSizeMinusButton" Content="-" HorizontalAlignment="Left" Height="50" Margin="684,68,0,0" VerticalAlignment="Top" Width="50" FontSize="20" Click="PointSizeMinusButton_Click" Delay="100"/>
+        <RepeatButton x:Name="PointSizePlusButton" Content="+" HorizontalAlignment="Left" Height="50" Margin="832,68,0,0" VerticalAlignment="Top" Width="50" FontSize="20" Click="PointSizePlusButton_Click" Delay="100"/>
+        <TextBox x:Name="PointSizeTextBox" HorizontalAlignment="Left" Height="26" Margin="752,77,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="35" TextChanged="PointSizeTextBox_TextChanged" GotFocus="PointSizeTextBox_GotFocus"/>
+        <RepeatButton x:Name="ThicknessMinusButton" Content="-" HorizontalAlignment="Left" Height="50" Margin="1048,68,0,0" VerticalAlignment="Top" Width="50" FontSize="20" Click="ThicknessMinusButton_Click" Delay="100"/>
+        <RepeatButton x:Name="ThicknessPlusButton" Content="+" HorizontalAlignment="Left" Height="50" Margin="1196,68,0,0" VerticalAlignment="Top" Width="50" FontSize="20" Click="ThicknessPlusButton_Click" Delay="100"/>
+        <TextBox x:Name="ThicknessTextBox" HorizontalAlignment="Left" Height="26" Margin="1116,77,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="35" TextChanged="ThicknessTextBox_TextChanged" GotFocus="ThicknessTextBox_GotFocus"/>
+        <ComboBox x:Name="ColorComboBox" HorizontalAlignment="Left" Height="39" Margin="312,74,0,0" VerticalAlignment="Top" Width="222" SelectionChanged="ColorComboBox_SelectionChanged">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Rectangle Grid.Column="0" Width="25" Height="25" Margin="5" Fill="{Binding Brush}"/>
+                        <TextBlock Grid.Column="1" Text="{Binding ColorName}" VerticalAlignment="Center" Margin="3,2,2,2"/>
+                    </Grid>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox x:Name="ShapeComboBox" HorizontalAlignment="Left" Height="39" Margin="47,74,0,0" VerticalAlignment="Top" Width="222" SelectionChanged="ShapeComboBox_SelectionChanged">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Width="25" Height="25" Margin="5" Source="{Binding Icon}"/>
+                        <TextBlock Grid.Column="1" Text="{Binding ShapeName}" VerticalAlignment="Center" Margin="3,2,2,2"/>
+                    </Grid>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+    </Grid>
+</Page>

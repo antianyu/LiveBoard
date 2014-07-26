@@ -1,0 +1,140 @@
+D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Debug\LiveBoard.exe
+D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Debug\LiveBoard.pdb
+D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Debug\resources.pri
+D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Debug\AppxManifest.xml
+D:\Windows 8 Projects\LiveBoard\LiveBoard\bin\Debug\LiveBoard.build.appxrecipe
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\App.g.i.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\App.g.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\Common\StandardStyles.g.i.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\Common\StandardStyles.g.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\MainPage.g.i.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\MainPage.g.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\XamlTypeInfo.g.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\App.xaml
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\Common\StandardStyles.xaml
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\MainPage.xaml
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\LiveBoard.exe
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\LiveBoard.pdb
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\priconfig.xml
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\layout.resfiles
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\resources.resfiles
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\pri.resfiles
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\LanguageQualifiers.txt
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\ProjectArchitectures.txt
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\BoardPage.g.i.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\BoardPage.g.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\BoardPage.xaml
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\priconfig.xml.intermediate
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\layout.resfiles.intermediate
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\resources.resfiles.intermediate
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\pri.resfiles.intermediate
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\AboutPage.g.i.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\AboutPage.g.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\AboutPage.xaml
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\RoomListPage.g.i.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\RoomListPage.g.cs
+D:\Windows 8 Projects\LiveBoard\LiveBoard\obj\Debug\RoomListPage.xaml
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\bin\Debug\LiveBoard.exe
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\bin\Debug\LiveBoard.pdb
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\bin\Debug\resources.pri
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\bin\Debug\AppxManifest.xml
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\bin\Debug\LiveBoard.build.appxrecipe
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\App.g.i.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\App.g.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\AboutPage.g.i.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\AboutPage.g.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\BoardPage.g.i.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\BoardPage.g.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\RoomListPage.g.i.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\RoomListPage.g.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\MainPage.g.i.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\MainPage.g.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\App.xaml
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\AboutPage.xaml
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\BoardPage.xaml
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\RoomListPage.xaml
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\Common\StandardStyles.xaml
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\MainPage.xaml
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\LiveBoard.exe
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\LiveBoard.pdb
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\priconfig.xml
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\layout.resfiles
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\resources.resfiles
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\pri.resfiles
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\LanguageQualifiers.txt
+C:\Users\JNO\Desktop\LiveBoard\LiveBoard\obj\Debug\ProjectArchitectures.txt
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\bin\Debug\LiveBoard.exe
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\bin\Debug\LiveBoard.pdb
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\bin\Debug\resources.pri
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\bin\Debug\AppxManifest.xml
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\bin\Debug\LiveBoard.build.appxrecipe
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\App.g.i.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\App.g.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\AboutPage.g.i.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\AboutPage.g.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\BoardPage.g.i.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\BoardPage.g.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\RoomListPage.g.i.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\RoomListPage.g.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\MainPage.g.i.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\MainPage.g.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\App.xaml
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\AboutPage.xaml
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\BoardPage.xaml
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\RoomListPage.xaml
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\MainPage.xaml
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\LiveBoard.exe
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\LiveBoard.pdb
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\priconfig.xml
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\layout.resfiles
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\resources.resfiles
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\pri.resfiles
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\LanguageQualifiers.txt
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\ProjectArchitectures.txt
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\priconfig.xml.intermediate
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\layout.resfiles.intermediate
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\resources.resfiles.intermediate
+C:\Users\Xu Wuyang\Desktop\LiveBoard\LiveBoard\obj\Debug\pri.resfiles.intermediate
+E:\程序\Windows 8\LiveBoard1\LiveBoard\bin\Debug\LiveBoard.exe
+E:\程序\Windows 8\LiveBoard1\LiveBoard\bin\Debug\LiveBoard.pdb
+E:\程序\Windows 8\LiveBoard1\LiveBoard\bin\Debug\resources.pri
+E:\程序\Windows 8\LiveBoard1\LiveBoard\bin\Debug\AppxManifest.xml
+E:\程序\Windows 8\LiveBoard1\LiveBoard\bin\Debug\LiveBoard.build.appxrecipe
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\App.g.i.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\App.g.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\AboutPage.g.i.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\AboutPage.g.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\BoardPage.g.i.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\BoardPage.g.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\RoomListPage.g.i.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\RoomListPage.g.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\Common\StandardStyles.g.i.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\Common\StandardStyles.g.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\MainPage.g.i.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\MainPage.g.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\XamlTypeInfo.g.cs
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\App.xaml
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\AboutPage.xaml
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\BoardPage.xaml
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\RoomListPage.xaml
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\Common\StandardStyles.xaml
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\MainPage.xaml
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\LiveBoard.exe
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\LiveBoard.pdb
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\priconfig.xml.intermediate
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\layout.resfiles.intermediate
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\resources.resfiles.intermediate
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\pri.resfiles.intermediate
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\priconfig.xml
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\layout.resfiles
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\resources.resfiles
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\pri.resfiles
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\LanguageQualifiers.txt
+E:\程序\Windows 8\LiveBoard1\LiveBoard\obj\Debug\ProjectArchitectures.txt
